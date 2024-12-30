@@ -10,6 +10,6 @@ make
 
 find . -name *.gcda
 
-lcov -o python.cov -c -d
+lcov -o ffmpeg.cov -c -d
 
 genhtml -o cov_report ffmpeg.cov
